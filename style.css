@@ -1,0 +1,50 @@
+body{
+	background-color: lightblue;
+}
+h1{
+	text-align: center;
+	color: white;
+	background-color: dodgerblue;
+	border-radius: 5px;
+	margin: 25px 100px;
+	transition: 0.5s;
+}
+h2{
+	color: darkred;
+	margin: 25px 250px;
+	text-align: center;
+	border: 1px solid darkred;
+	transition: 0.5s;
+}
+h2:hover{
+	transform: scale(1.1);
+}
+.btn{
+	margin:0 30px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding:5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border-style: none;
+    cursor: pointer;
+    border:1px solid dodgerblue;
+    transition: 0.5s;
+}
+.btn:hover{
+	color: black;
+	background-color: lightgrey;
+	transform: scale(1.2);
+}
+h1:hover{
+	color: black;
+	background-color: lightblue;
+	border-radius: 5px;
+	transform: scale(1.1);
+	border: 1px solid black;
+}
+.btn1{
+	margin: 30px 0;
+	text-align: center;
+}
